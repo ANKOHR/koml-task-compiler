@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koml-task-compiler"
+version = "0.1.0"
+description = "Deterministic objective to task specification compiler"
+requires-python = ">=3.10"
+
+[project.scripts]
+ktc = "koml_task_compiler.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["koml_task_compiler*"]

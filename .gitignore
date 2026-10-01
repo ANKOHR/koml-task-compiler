@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+demo/
+.ktc-results.json
+koml-task-compiler-codex.log
+koml-task-compiler-launch.py
+koml-task-compiler-prompt.txt

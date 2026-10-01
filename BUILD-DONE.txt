@@ -1,0 +1,7 @@
+BUILD-DONE
+Written by: launcher (2026-10-01 ~01:52 BST), not by the codex run.
+Reason: the codex build executed every protocol step (package, pytest suite, README.md, LESSONS.md, VERDICT.md, editable pip install all succeeded per koml-task-compiler-codex.log) and then codex exited 1 on a usage-limit error before writing this file (log timestamp 2026-09-30 17:12:14). Completion verified from the log and .pytest_cache (31 node ids, empty lastfailed).
+
+Tests: 29 passed (pytest, independently verified by b350-verify.py on 2026-10-01)
+Local commit hash: none (the build did not initialise a git repo)
+Summary: koml-task-compiler is a local, CPU-only Python CLI that turns natural-language objectives with explicit clauses into formal JSON task specifications, with deterministic parsing, explicit requirement-clause boundaries, structural review against planted ground truth, and review flags for missing requirements; it ships per-command help, stable exit codes, a 200-record synthetic fixture generator, and a 29-test pytest suite. Its verdict is pending a two-week real-use evidence window.

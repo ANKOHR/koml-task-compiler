@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "label": "SYNTHETIC hand-written five-record example",
+  "records": [
+    {
+      "id": "real-1",
+      "objective": "Write operations summary; deliverable: summary.md; accept: lists all supplied tasks",
+      "synthetic": true
+    },
+    {
+      "id": "real-2",
+      "objective": "Review backlog; accept: each item has a disposition",
+      "synthetic": true
+    },
+    {
+      "id": "real-3",
+      "objective": "Prepare handover; deliverable: handover.md",
+      "synthetic": true
+    },
+    {
+      "id": "real-4",
+      "objective": "Organise files",
+      "synthetic": true
+    },
+    {
+      "id": "real-5",
+      "objective": "Check records; deliverable: audit.json; accept: all IDs unique; input: C:\\Users\\Henry\\records.json",
+      "synthetic": true
+    }
+  ]
+}
